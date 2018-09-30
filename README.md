@@ -1,3 +1,3 @@
 meu primeiro commit
 
-alteraçao no readme
+alteração no Readme usando Atom
