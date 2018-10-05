@@ -10,7 +10,7 @@ if(isset($_SESSION['id']) && !empty($_SESSION['id'])) {
 <html>
      <head>
          <meta charset="UTF-8"/>
-         <link rel="stylesheet" type="text/css" href="style.css">
+         <link rel="stylesheet" type="text/css" href="assets/style/style.css">
          <title>Pratica Geral HTML</title>
      </head>
      <body>
@@ -32,13 +32,13 @@ if(isset($_SESSION['id']) && !empty($_SESSION['id'])) {
          	 <div class="banner interior">
 
                  <div class="banneresquerda">
-         	 	 	<div class="frase1">Bom dia, <?php echo $_SESSION['nome'];?></div>
+         	 	 	<div class="frase1">Bom dia<?php echo ", ".$_SESSION['nome'];?></div>
                     <div class="frase2">Outras frases que complementam a frase</br>de efeito</div>
          	 	    <div class="botao">Acessar o Produto</div>
                  </div>
 
                  <div class="bannerdireita">
-         	 	 	<img src="homem.png" />
+         	 	 	<img src="assets/images/homem.png" />
          	 	 </div>
          	 </div>
          </div>
@@ -46,10 +46,10 @@ if(isset($_SESSION['id']) && !empty($_SESSION['id'])) {
              <div class="conteudointerno">
                  <div class="outrosprodutos">Outros Produtos</div>
                  <div class="fotos">
-                     <img src="banner1.jpg"/>
-                     <img src="banner2.jpg"/>
-                     <img src="banner3.jpg"/>
-                     <img src="banner4.jpg"/>
+                     <img src="assets/images/banner1.jpg"/>
+                     <img src="assets/images/banner2.jpg"/>
+                     <img src="assets/images/banner3.jpg"/>
+                     <img src="assets/images/banner4.jpg"/>
                  </div>
              </div>
          </div>
